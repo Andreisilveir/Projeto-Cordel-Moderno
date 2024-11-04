@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'titulo';
+    src: url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&display=swap');
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    font-family: 'titulo';
+    background-color: black;
+    color: blue;
+    width: 100%;
+    height: 300px;
+
+}
+
+header > #titulos {
+
+    padding: 80px;
+    text-align: center;
+    font-size: 380%;
+    margin: auto;
+
+}
