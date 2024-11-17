@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+
+    color: white;
+    background-color: black;
+    min-width: 50%;
+    height: 22cqmax;
+    text-align: center;
+
+}
+
+#titulo {
+    
+    margin: 0px;
+    font-size: 2cqmax;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+#parte1 {
+
+    min-height: 400px;
+
+
+}
+
+#paragrafo1 {
+
+    font-size: 3cqmax;
+    padding-left: 10px;
+
+}
+
+#parte2{
+
+    background-color: black;
+}
+
+a {
+
+    font-size: 5cqmax;
+    text-decoration: none;
+    color: lightgray;
+
+}
+
+a:hover {
+
+    color: gray;
+    
+}
