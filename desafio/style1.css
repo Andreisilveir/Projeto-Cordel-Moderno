@@ -29,21 +29,52 @@ header {
 
 #parte1 {
 
-    min-height: 400px;
-
+    min-height: 100px;
+    max-height: 700px;
 
 }
 
 #paragrafo1 {
 
-    font-size: 3cqmax;
-    padding-left: 10px;
+    font-size: 1.5em;
+    padding-top: 13vh;
+    padding-bottom: 25vh;
+    padding-left: 15px;
+    margin: 0px;
+    line-height: 2em;
+
 
 }
 
-#parte2{
+#parte2 {
 
-    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    min-height: 800px;
+    background-position: top center;
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+
+}
+
+#paragrafo2 {
+
+    color: white;
+    font-size: 1.5em;
+    margin: 0px;
+    width: 350px;
+    min-height: 10px;
+    background-color: rgba(0, 0, 0, 0.437);
+    transform: translateX(40px); /* Move 20px para a direita */
+    line-height: 2em;
+
+}
+
+p {
+
+    margin: 0px;
 }
 
 a {
