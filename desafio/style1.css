@@ -147,10 +147,14 @@ header {
 
 footer {
 
-    text-align: center;
     margin: 0px;
     color: white;
     background-color: gray;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    font-size: 15px;
 
 }
 
@@ -159,11 +163,25 @@ p {
     margin: 0px;
 }
 
+#link_c {
+
+    text-decoration: none;
+    color: skyblue;
+
+}
+
+#link_c:hover {
+
+    text-decoration: underline;
+    color: blue;
+}
+
 a {
 
     font-size: 5cqmax;
     text-decoration: none;
     color: lightgray;
+    font-size: 15px;
 
 }
 
